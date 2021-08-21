@@ -1,0 +1,200 @@
+body {
+  background: #fafafa;
+}
+
+.image {
+  display: none;
+}
+.insta {
+  display: block;
+  margin-top: 6%;
+  margin-bottom: 7%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  height: 51px;
+}
+.e-mail input {
+  display: block;
+  margin: 2% auto;
+  width: 230px;
+  height: 36px;
+  padding: 9px 0px 7px 8px;
+  box-sizing: border-box;
+}
+.password input {
+  display: block;
+  margin: 2% auto;
+  width: 230px;
+  height: 36px;
+  padding: 9px 0px 7px 8px;
+  box-sizing: border-box;
+}
+.log-in button {
+  display: block;
+  width: 240px;
+  height: 29.6px;
+  margin: 8px auto;
+  background: rgba(0, 0, 255, 0.3);
+}
+.aur {
+  width: 240px;
+  height: 14.4px;
+  margin: 13px auto;
+}
+.line {
+  display: inline-block;
+  background: rgba(0, 0, 0, 0.2);
+  width: 89.04px;
+  height: 2px;
+  padding: 0px 5px;
+}
+.or {
+  color: rgba(0, 0, 0, 0.4);
+  padding: 5px;
+}
+.social {
+  display: block;
+  width: 240px;
+  height: 19.2px;
+  margin: 40px auto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.fb a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.fb-logo a {
+  font-size: 1.2rem;
+}
+.forgetpass {
+  display: block;
+  width: 320px;
+  height: 13.6px;
+  margin-top: 12px;
+  margin-bottom: 60px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.forgetpass a {
+  text-decoration: none;
+  color: #00376b;
+  font-size: 13px;
+}
+.acc {
+  display: block;
+  width: 226.84px;
+  height: 47.6px;
+  margin: 10px auto;
+  text-align: center;
+}
+.acc a {
+  text-decoration: none;
+}
+.app {
+  display: block;
+  width: 280px;
+  height: 100.4px;
+  margin: 10px auto;
+  text-align: center;
+}
+.app h5 {
+  font-weight: lighter;
+}
+.app a img {
+  padding-left: 10px;
+  padding: 4px;
+  float: left;
+  width: 130px;
+  height: 40px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+ul li {
+  float: left;
+}
+ul li a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.imp-links {
+  width: 300px;
+  height: 100px;
+  padding: 0 10px;
+  display: block;
+  margin: 0 auto;
+}
+.footer p {
+  padding: 7px;
+  float: left;
+}
+
+.footer {
+  width: 300px;
+  height: 40px;
+  margin-bottom: 60px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .login {
+    background: #fff;
+    width: 360px;
+    height: 380px;
+    display: block;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+
+    margin: 150px auto 40px;
+  }
+  .signup {
+    background: #fff;
+    width: 360px;
+    height: 63px;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+  }
+  .imp-links {
+    margin: 100px auto 30px;
+    display: block;
+    width: 650px;
+    height: 44px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .image {
+    display: block;
+    width: 400px;
+    height: 650px;
+    margin-top: 125px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .instalogin {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+}
